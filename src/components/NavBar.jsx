@@ -7,7 +7,6 @@ export const NavBar = () => {
                 <li> <a href="#proyectos">Proyectos</a> </li>
                 <li> <a href="#sobreMi">Aptitudes</a> </li>
             </ul>
-
         </nav>
     );
 };
