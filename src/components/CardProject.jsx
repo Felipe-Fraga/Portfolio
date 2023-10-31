@@ -4,7 +4,7 @@ export const CardProject = ({ img, title, text, deploy, github, bg, tamIm}) => {
     const imgstyle = { height: tamIm, minWidth: tamIm }
 
     return (
-        <article className="flex text-white mt-10 w-[90%] p-2 bg-white m-auto rounded" style={card}>
+        <article className="flex text-white mt-10 w-[90%] p-2 bg-white rounded" style={card}>
             <div>
                 <img src={img} alt="Imágen demostrativa de To Do List" className="rounded" style={imgstyle}/>
             </div>

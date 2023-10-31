@@ -26,8 +26,8 @@ const projects = [
 export const Proyectos = () => {
 
     return (
-        <div className="min-h-screen pt-[30px]">
-            <h1 className="text-5xl text-center text-white ">Proyectos</h1>
+        <div className="min-h-screen pt-[10px] w-[90%] mt-10 m-auto">
+            <h1 className="text-5xl text-black dark:text-white "><span className='text-detLight dark:text-details'>Pro</span>yectos</h1>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4">
                 {projects.map((project, index) => (
