@@ -7,10 +7,10 @@ export const Home = () => {
     return (
         <div className="relative text-center">
             {/* Imagen de Canva para pantallas grandes (lg y xl) */}
-            <img src={canva} className="hidden sm:inline md:inline lg:inline xl:inline" alt="Imagen Canva" />
+            <img src={canva} className="hidden sm:inline md:inline lg:inline xl:inline w-full h-auto" alt="Imagen Canva" />
 
             {/* Imagen de Canva Mobile para pantallas pequeñas (sm y md) */}
-            <img src={canvaMobile} className="inline sm:hidden " alt="Imagen Canva Mobile" />
+            <img src={canvaMobile} className="inline sm:hidden w-full h-auto" alt="Imagen Canva Mobile" />
 
             <div className="absolute inset-x-0 bottom-0 mb-20 lg:bottom-20 text-center">
                 <a href="#proyectos" className="font-bold bg-orange-500 rounded p-2">
