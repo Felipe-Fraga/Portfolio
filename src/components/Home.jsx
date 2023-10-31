@@ -1,6 +1,6 @@
 import React from 'react';
 import canva from '../Images/canva.jpg';
-import canvaMobile from '../Images/canvaMobile.jpg';
+import canvaMobile from '../Images/canvamobile.jpg';
 import { Contacto } from './Contacto';
 
 export const Home = () => {
