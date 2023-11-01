@@ -3,7 +3,7 @@ import { AiFillLinkedin } from 'react-icons/ai'
 
 export const Contacto = () => {
     return (
-        <div className="flex space-x-4 text-detLight dark:text-white">
+        <div className="flex space-x-4 text-details dark:text-white">
             <a href='https://github.com/Felipe-Fraga' target='blank'>
                 <FaGithub className="w-8 h-8" />
             </a>

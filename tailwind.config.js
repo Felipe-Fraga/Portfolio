@@ -8,9 +8,9 @@ export default {
       },
       colors: {
         bg: '#0F0F0F',
-        bgLight: '#FAF0E6',
+        bgLight: '#EBF3E8',
         details: '#005B41',
-        detLight: '#352F44'
+        detLight: '#86A789',
       }
     }
   },
