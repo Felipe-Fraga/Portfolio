@@ -1,6 +1,7 @@
 import todo from '../Images/todo.png'
 import earth from '../Images/earth.png'
 import moru from '../Images/moru.png'
+import { AiOutlineArrowUp } from 'react-icons/ai'
 import { CardProject } from './CardProject'
 
 const projects = [
@@ -33,9 +34,13 @@ const projects = [
 export const Proyectos = () => {
 
     return (
-        <div className="min-h-screen py-5 w-[80%]  m-auto">
-            <h1 className="text-5xl text-details dark:text-white font-rosarivo"><span className='text-detLight dark:text-details'>Pro</span>yectos</h1>
-
+        <div className="min-h-screen py-10 w-[80%] mx-auto animate-fade-down">
+            <div className='flex justify-between'>
+            <h1 className="text-5xl text-detLight dark:text-white font-rosarivo"><span className='text-details'>Pro</span>yectos</h1>
+            <a href="#home">
+                <AiOutlineArrowUp className='text-detLight dark:text-details animate-bounce animate-infinite font-bold w-[75px] h-[75px]' />
+            </a>
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
                 {projects.map((project, index) => (
                     <CardProject key={index} {...project} />

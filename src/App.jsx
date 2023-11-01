@@ -6,7 +6,7 @@ function App() {
 
 
   return (
-    <div className="bg-bgLight dark:bg-bg ">
+    <div className="bg-bgLight dark:bg-bg">
       <Theme className='fixed'/>
 
       <div id="home">
