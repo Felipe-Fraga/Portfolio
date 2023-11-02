@@ -1,7 +1,7 @@
 import astronauta from '../Images/astronauta.png'
 import { Contacto } from './Contacto'
 import { StackUno, StackDos, StackTres, StackCuatro } from './Stack'
-import { AiOutlineArrowDown } from 'react-icons/ai'
+import { FaSpaceAwesome } from 'react-icons/fa6'
 
 export const Home = () => {
     return (
@@ -30,8 +30,8 @@ export const Home = () => {
                         <StackCuatro />
                     </div> */}
 
-                        <a href="#proyectos"  className='absolute bottom-0 right-0 flex'>
-                            <AiOutlineArrowDown className='text-detLight dark:text-details animate-bounce animate-infinite font-bold w-[75px] h-[75px]'/>
+                        <a href="#proyectos"  className='absolute bottom-0 md:right-0 flex   transform rotate-180'>
+                            <FaSpaceAwesome className='text-detLight dark:text-details animate-bounce animate-infinite font-bold w-[35px] h-[35px]'/>
                         </a>
                 </div>
 

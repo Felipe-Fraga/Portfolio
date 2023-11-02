@@ -3,6 +3,7 @@ import earth from '../Images/earth.png'
 import moru from '../Images/moru.png'
 import { AiOutlineArrowUp } from 'react-icons/ai'
 import { CardProject } from './CardProject'
+import { FaSpaceAwesome } from 'react-icons/fa6'
 
 const projects = [
     {
@@ -38,7 +39,7 @@ export const Proyectos = () => {
             <div className='flex justify-between'>
             <h1 className="text-5xl text-detLight dark:text-white font-rosarivo"><span className='text-details'>Pro</span>yectos</h1>
             <a href="#home">
-                <AiOutlineArrowUp className='text-detLight dark:text-details animate-bounce animate-infinite font-bold w-[75px] h-[75px]' />
+                <FaSpaceAwesome className='text-detLight dark:text-details animate-bounce animate-infinite font-bold w-[35px] h-[35px]' />
             </a>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">

@@ -1,12 +1,13 @@
 import { Proyectos } from "./components/Proyectos";
 import { Home } from "./components/Home";
 import { Theme } from "./components/Theme";
+import { ChatBot } from "./components/ChatBot";
 
 function App() {
 
 
   return (
-    <div className="bg-bgLight dark:bg-bg">
+    <div>
       <Theme className='fixed'/>
 
       <div id="home">
@@ -15,6 +16,7 @@ function App() {
       <div id="proyectos">
         <Proyectos id="proyectos" />
       </div>
+      <ChatBot />
     </div>
   );
 }
