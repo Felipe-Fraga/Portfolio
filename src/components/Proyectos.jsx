@@ -4,6 +4,7 @@ import moru from '../Images/moru.png'
 import { AiOutlineArrowUp } from 'react-icons/ai'
 import { CardProject } from './CardProject'
 import { FaSpaceAwesome } from 'react-icons/fa6'
+import { FullStack } from './Stack'
 
 const projects = [
     {
@@ -36,10 +37,12 @@ export const Proyectos = () => {
 
     return (
         <div className="min-h-screen py-10 w-[80%] mx-auto animate-fade-down">
-            <div className='flex justify-between'>
+            <FullStack/>
+
+            <div className='flex justify-between mt-10'>
             <h1 className="text-5xl text-detLight dark:text-white font-rosarivo"><span className='text-details'>Pro</span>yectos</h1>
             <a href="#home">
-                <FaSpaceAwesome className='text-detLight dark:text-details animate-bounce animate-infinite font-bold w-[35px] h-[35px]' />
+                <FaSpaceAwesome className='text-detLight dark:text-details animate-bounce animate-infinite font-bold w-[35px] h-[35px] mt-1' />
             </a>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">

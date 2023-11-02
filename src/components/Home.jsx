@@ -1,6 +1,5 @@
 import astronauta from '../Images/astronauta.png'
 import { Contacto } from './Contacto'
-import { StackUno, StackDos, StackTres, StackCuatro } from './Stack'
 import { FaSpaceAwesome } from 'react-icons/fa6'
 
 export const Home = () => {
@@ -35,13 +34,12 @@ export const Home = () => {
                         </a>
                 </div>
 
+
                 <div className='hidden sm:block'>
                     {/* <StackDos />
                     <StackCuatro /> */}
                 </div>
             </div>
-
-
         </div>
     )
 }
