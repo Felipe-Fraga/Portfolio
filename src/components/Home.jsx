@@ -29,7 +29,7 @@ export const Home = () => {
                         <StackCuatro />
                     </div> */}
 
-                        <a href="#proyectos"  className='absolute bottom-0 md:right-0 flex   transform rotate-180'>
+                        <a href="#proyectos"  className='absolute bottom-2 md:right-0 flex   transform rotate-180'>
                             <FaSpaceAwesome className='text-detLight dark:text-details animate-bounce animate-infinite font-bold w-[35px] h-[35px]'/>
                         </a>
                 </div>
