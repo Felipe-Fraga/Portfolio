@@ -3,16 +3,11 @@ import { Home } from "./components/Home";
 import { Theme } from "./components/Theme";
 import { ChatBot } from "./components/ChatBot";
 import { Footer } from "./components/Footer";
-import { FaGithub } from 'react-icons/fa';
-import { AiFillLinkedin } from 'react-icons/ai'
 
 function App() {
-
-
   return (
-    <div>
+    <div className=" animate-fade-down animate-duration-[2500ms]">
       <Theme className='fixed'/>
-
       <div id="home">
         <Home id="home" />
       </div>
