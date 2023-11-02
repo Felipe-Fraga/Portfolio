@@ -18,7 +18,7 @@ export const Home = () => {
 
                     <img src={astronauta} alt="Astronauta saludando" className='mt-[50px] sm:mt-0 h-[200px] sm:h-[250px] animate-wiggle-more animate-infinite animate-duration-[4111ms] ' />
 
-                    <a href="#proyectos" className='absolute bottom-2 md:right-0 flex   transform rotate-180'>
+                    <a href="#proyectos" className='absolute bottom-10 md:bottom-0 md:right-0 flex   transform rotate-180'>
                         <FaSpaceAwesome className='text-detLight dark:text-details animate-bounce animate-infinite font-bold w-[35px] h-[35px]' />
                     </a>
                 </div>

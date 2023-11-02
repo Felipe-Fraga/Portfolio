@@ -13,7 +13,7 @@ type Message = {
 const ANSWERS = {
     default: ( <p>No puedo responder en este momento, intenta hacer una pregunta más específica</p> ),
     intro: ( <p>Hazme preguntas acerca de Felipe y con gusto responderé</p> ),
-    stack: ( <p> Ya que su preferencia es trabajar como fullstack enfocado en frontend suele javascript, react, vite, tailwindcss, express, node.js y postgreSQL, aunque lo que más le gusta es explorar nuevas tecnologías. <a href="#home">Aquí su stack</a> </p> ),
+    stack: ( <p> Ya que su preferencia es trabajar como fullstack enfocado en frontend suele usar javascript, react, vite, tailwindcss, express, node.js y postgreSQL, aunque lo que más le gusta es explorar nuevas tecnologías. <a href="#proyectos">Aquí su stack</a> </p> ),
     ingles: ( <p>Cuenta con un nivel de inglés claro y capacidad para entenderlo, trabajando en mejorarlo aún más para mejorar su comunicación</p> ),
     estudio: ( <p>
             Es estudiante de la Tecnicatura Universitaria en Programación y graduado full stack en Henry,
