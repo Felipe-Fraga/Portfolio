@@ -40,6 +40,14 @@ const EXAMPLES = [
     { "text": "Con que tecnologías programa?", "label": "stack" },
     { "text": "En que lenguaje trabaja?", "label": "stack" },
     { "text": "En que lenguaje programa?", "label": "stack" },
+    { "text": "Usa typescript?", "label": "stack" },
+    { "text": "Usa javascript?", "label": "stack" },
+    { "text": "Usa react?", "label": "stack" },
+    { "text": "Usa angular?", "label": "stack" },
+    { "text": "Usa bootstrap?", "label": "stack" },
+    { "text": "Usa tailwind?", "label": "stack" },
+    { "text": "sabe usar typescript?", "label": "stack" },
+
 
     /* INGLES */
     { "text": "ingles", "label": "ingles" },
