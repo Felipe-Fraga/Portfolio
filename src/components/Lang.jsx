@@ -5,12 +5,12 @@ export const Lang = () => {
     return (
         <div className='pt-12'>
             <button onClick={() => i18n.changeLanguage('es')}
-                className={`relative py-2 px-6 after:absolute after:h-1 after:hover:h-[200%] transition-all  hover:transition-all after:transition-all  after:hover:transition-all overflow-hidden z-20 after:z-[-20] after:bg-details after:rounded-t-full after:w-full after:bottom-0 after:left-0 text-details hover:text-bg ${i18n.language === 'es' ? 'bg-details text-bg' : ''}`}>
+                className={`relative py-2 px-6 after:absolute after:h-1 after:hover:h-[200%] transition-all  hover:transition-all after:transition-all  after:hover:transition-all overflow-hidden z-20 after:z-[-20] after:bg-details after:rounded-t-full after:w-full after:bottom-0 after:left-0 text-details hover:text-bgLight hover:dark:text-bg ${i18n.language === 'es' ? 'bg-details text-bgLight dark:text-bg' : ''}`}>
                 ES
             </button>
 
             <button onClick={() => document.getElementById('my_modal_5').showModal()}
-                className={`relative py-2 px-6 after:absolute after:h-1 after:hover:h-[200%] transition-all  hover:transition-all after:transition-all  after:hover:transition-all overflow-hidden z-20 after:z-[-20] after:bg-details after:rounded-t-full after:w-full after:bottom-0 after:left-0 text-details hover:text-bg ${i18n.language === 'en' ? 'bg-details text-bg' : ''}`}>
+                className={`relative py-2 px-6 after:absolute after:h-1 after:hover:h-[200%] transition-all  hover:transition-all after:transition-all  after:hover:transition-all overflow-hidden z-20 after:z-[-20] after:bg-details after:rounded-t-full after:w-full after:bottom-0 after:left-0 text-details hover:text-bgLight hover:dark:text-bg ${i18n.language === 'en' ? 'bg-details text-bgLight dark:text-bg' : ''}`}>
                 EN
             </button>
 
