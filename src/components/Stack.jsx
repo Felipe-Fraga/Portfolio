@@ -8,138 +8,138 @@ import { AiFillHtml5 } from 'react-icons/ai'
 
 export const FullStack = () => {
     return (
-        <div className="w-full h-auto mx-auto overflow-hidden">
+        <div className="w-full h-auto mx-auto overflow-hidden text-details">
             <div className="slider-track animate-slide flex">
                 <div className="slider-slide w-1/7">
-                <FaJs size={48} className='animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#FFFF00" />
+                    <FaJs size={48} className='animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <FaReact size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#61dafb" />
+                    <FaReact size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <FaCss3 size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#336791" />
+                    <FaCss3 size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <TbBrandRedux size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#563d7c" />
+                    <TbBrandRedux size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <SiExpress size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#333" />
+                    <SiExpress size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <SiTailwindcss size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#61dafb" />
+                    <SiTailwindcss size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <BiLogoPostgresql size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#336791" />
+                    <BiLogoPostgresql size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
 
                 <div className="slider-slide w-1/7">
-                <FaBootstrap size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#563d7c" />
+                    <FaBootstrap size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <BiLogoSass size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#FECDA6" />
+                    <BiLogoSass size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <BsGit size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#FF5733" />
+                    <BsGit size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <FaNodeJs size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#8cc84b" />
+                    <FaNodeJs size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <AiFillHtml5 size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#FECDA6" />
+                    <AiFillHtml5 size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <SiPostman size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#FF5733" />
+                    <SiPostman size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <SiSequelize size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#8cc84b" />
+                    <SiSequelize size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <FaJs size={48} className='animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#FFFF00" />
+                    <FaJs size={48} className='animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <FaReact size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#61dafb" />
+                    <FaReact size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <FaCss3 size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#336791" />
+                    <FaCss3 size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <TbBrandRedux size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#563d7c" />
+                    <TbBrandRedux size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <SiExpress size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#333" />
+                    <SiExpress size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <SiTailwindcss size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#61dafb" />
+                    <SiTailwindcss size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <BiLogoPostgresql size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#336791" />
+                    <BiLogoPostgresql size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
 
                 <div className="slider-slide w-1/7">
-                <FaBootstrap size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#563d7c" />
+                    <FaBootstrap size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <BiLogoSass size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#FECDA6" />
+                    <BiLogoSass size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <BsGit size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#FF5733" />
+                    <BsGit size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <FaNodeJs size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#8cc84b" />
+                    <FaNodeJs size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <AiFillHtml5 size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#FECDA6" />
+                    <AiFillHtml5 size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <SiPostman size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#FF5733" />
+                    <SiPostman size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <SiSequelize size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#8cc84b" />
+                    <SiSequelize size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <FaJs size={48} className='animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#FFFF00" />
+                    <FaJs size={48} className='animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <FaReact size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#61dafb" />
+                    <FaReact size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <FaCss3 size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#336791" />
+                    <FaCss3 size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <TbBrandRedux size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#563d7c" />
+                    <TbBrandRedux size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <SiExpress size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#333" />
+                    <SiExpress size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <SiTailwindcss size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#61dafb" />
+                    <SiTailwindcss size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <BiLogoPostgresql size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#336791" />
+                    <BiLogoPostgresql size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
 
                 <div className="slider-slide w-1/7">
-                <FaBootstrap size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#563d7c" />
+                    <FaBootstrap size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <BiLogoSass size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#FECDA6" />
+                    <BiLogoSass size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <BsGit size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#FF5733" />
+                    <BsGit size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <FaNodeJs size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#8cc84b" />
+                    <FaNodeJs size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <AiFillHtml5 size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#FECDA6" />
+                    <AiFillHtml5 size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <SiPostman size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#FF5733" />
+                    <SiPostman size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
                 <div className="slider-slide w-1/7">
-                <SiSequelize size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3' color="#8cc84b" />
+                    <SiSequelize size={48} className=' animate-wiggle-more animate-infinite animate-duration-[8000ms] m-3 ' />
                 </div>
-                
+
             </div>
         </div>
     )
