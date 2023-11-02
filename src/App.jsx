@@ -2,6 +2,9 @@ import { Proyectos } from "./components/Proyectos";
 import { Home } from "./components/Home";
 import { Theme } from "./components/Theme";
 import { ChatBot } from "./components/ChatBot";
+import { Footer } from "./components/Footer";
+import { FaGithub } from 'react-icons/fa';
+import { AiFillLinkedin } from 'react-icons/ai'
 
 function App() {
 
@@ -17,6 +20,7 @@ function App() {
         <Proyectos id="proyectos" />
       </div>
       <ChatBot />
+      <Footer />
     </div>
   );
 }

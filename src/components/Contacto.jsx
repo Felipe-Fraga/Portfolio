@@ -1,9 +1,10 @@
 import { FaGithub } from 'react-icons/fa';
-import { AiFillLinkedin } from 'react-icons/ai'
+import { AiFillLinkedin, AiOutlineMail } from 'react-icons/ai'
+import { LiaNewspaper } from 'react-icons/lia'
 
 export const Contacto = () => {
     return (
-        <div className="flex space-x-4 text-details dark:text-white">
+        <div className="flex space-x-4 text-details">
             <a href='https://github.com/Felipe-Fraga' target='blank'>
                 <FaGithub className="w-8 h-8" />
             </a>
@@ -12,7 +13,13 @@ export const Contacto = () => {
                 <AiFillLinkedin className="w-8 h-8" />
             </a>
 
-            <button className='bg-detLight dark:bg-details p-2 rounded font-bold text-white '>Descargar CV</button>
+            <a href='https://mail.google.com/mail/u/0/?hl=es#inbox?compose=CllgCJqVwLvdQkRWpcfclXJRrDcCMBjnLgChdWdxqNvGzlDNZmDcRlZXPCbWdfBNBpRkvcJQZkL' target='blank'>
+                <AiOutlineMail className="w-8 h-8" />
+            </a>
+
+            <a href='https://docs.google.com/document/d/1hWIm0BhlkGDjETVYOfEAML94BxMgs3kQvgYBq1H2IY4/edit#heading=h.uhqjkfyivtwf' target='blank'>
+                <LiaNewspaper className="w-8 h-8" />
+            </a>
         </div>
     )
 }

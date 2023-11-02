@@ -10,7 +10,7 @@ export const Home = () => {
                 <div className='w-[80%] sm:text-right relative mx-10'>
                     <h1 className="text-4xl sm:text-7xl font-rosarivo">Fullstack <span className='text-detLight dark:text-details'> Frontend </span> <br></br> Developer<span className='text-twoLight dark:text-details'>.</span></h1>
 
-                    <h2 className="text-2xl my-6 font-rosarivo">Felipe Fraga</h2>
+                    <h2 className="text-2xl my-8 font-rosarivo">Felipe Fraga</h2>
 
                     <div className='sm:absolute right-0'>
                         <Contacto />
