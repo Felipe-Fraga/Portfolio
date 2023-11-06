@@ -1,7 +1,7 @@
 import todo from '../Images/todo.png'
 import earth from '../Images/earth.png'
 import moru from '../Images/moru.png'
-import RyM from '../Images/Rym.png'
+import RyM from '../Images/RyM.png'
 import { CardProject } from './CardProject'
 import { FaSpaceAwesome } from 'react-icons/fa6'
 import { FullStack } from './Stack'
