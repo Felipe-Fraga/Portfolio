@@ -1,6 +1,7 @@
 import todo from '../Images/todo.png'
 import earth from '../Images/earth.png'
 import moru from '../Images/moru.png'
+import RyM from '../Images/Rym.png'
 import { CardProject } from './CardProject'
 import { FaSpaceAwesome } from 'react-icons/fa6'
 import { FullStack } from './Stack'
@@ -38,6 +39,15 @@ export const Proyectos = () => {
             bg: '#001C30',
             stack: ['FaJs', 'FaReact', 'SiTailwindcss']
         },
+        {
+            img: RyM,
+            title: "Rick and Morty APP",
+            text: t('RyM-text'),
+            deploy: 'https://rick-and-morty-five-delta.vercel.app/',
+            github: 'https://github.com/Felipe-Fraga/RickAndMorty',
+            bg: '#2C272E',
+            stack: ['FaJs', 'FaReact', 'SiTailwindcss', 'TbBrandRedux']
+        }
     ];
 
     

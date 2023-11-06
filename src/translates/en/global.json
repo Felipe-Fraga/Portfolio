@@ -5,5 +5,6 @@
     "todo-title": "To Do List",
     "todo-text": "Full CRUD task management page with local storage for task persistence.",
     "earth-title": "Explore the planet",
-    "earth-text": "Informative page about the planet Earth."
+    "earth-text": "Informative page about the planet Earth.",
+    "RyM-text": "Page to get to know the characters from Rick and Morty, with various features including a game to test your knowledge."
 }
