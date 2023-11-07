@@ -7,8 +7,6 @@ import { FaSpaceAwesome } from 'react-icons/fa6'
 import { FullStack } from './Stack'
 import { useTranslation } from 'react-i18next'
 
-
-
 export const Proyectos = () => {
     const [t, i18n] = useTranslation('global')    
 
@@ -41,7 +39,7 @@ export const Proyectos = () => {
         },
         {
             img: RyM,
-            title: "Rick and Morty APP",
+            title: "Rick and Morty",
             text: t('RyM-text'),
             deploy: 'https://rick-and-morty-five-delta.vercel.app/',
             github: 'https://github.com/Felipe-Fraga/RickAndMorty',

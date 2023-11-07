@@ -6,5 +6,11 @@
     "todo-text": "Página de gestión de tareas de CRUD cumpleto y almacenamiento local para persistencia de las tareas.",
     "earth-title": "Recorre el planeta",
     "earth-text": "Página informativa sobre el planeta Tierra.",
-    "RyM-text": "Página para conocer los personajes de Rick and Morty, con diversas funcionalidades incluyendo un juego para poner a prueba los conocimientos"
-}
+    "RyM-text": "Página para conocer los personajes de Rick and Morty, con diversas funcionalidades incluyendo un juego para poner a prueba los conocimientos",
+    "about-title":"Sobre",
+    "me-title": "mí",
+    "am-text": "Como verás... ¡Soy un apasionado de la programación y la informática!",
+    "am-2text": "Me divierto explorando nuevas tecnologías y aceptando desafíos, siempre dando lo mejor de mí para obtener el mejor resultado.",
+    "am-study": "Aprovecho todos los días para formarme de manera autodidacta, a la vez que curso la Tecnicatura Universtaria en Programación ¡Tambíen soy graduado Full Stack de Henry!",
+    "am-soft": "Mis habilidades blandas me permiten una buena relación en equipo, ya que estoy en constante mejora y entablo una comunicación clara con mis compañeros."
+}   
