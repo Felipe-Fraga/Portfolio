@@ -3,7 +3,7 @@ import { AiOutlineEye, AiOutlineEyeInvisible } from 'react-icons/ai';
 import { FiGithub } from 'react-icons/fi'
 import { TbWorldWww } from 'react-icons/tb'
 import { FaJs, FaReact, FaNodeJs } from 'react-icons/fa';
-import { SiTailwindcss, SiSequelize, SiExpress, SiAuth0 } from 'react-icons/si';
+import { SiTailwindcss, SiSequelize, SiExpress, SiAuth0, SiVite } from 'react-icons/si';
 import { BiLogoPostgresql } from 'react-icons/bi';
 import { TbBrandRedux } from 'react-icons/tb';
 
@@ -33,6 +33,7 @@ export const CardProject = ({ img, title, text, deploy, github, bg, stack }) => 
                             <div className='flex justify-around w-[70%] mx-auto my-3'>
                                 {stack.includes('FaJs') && <FaJs />}
                                 {stack.includes('FaReact') && <FaReact />}
+                                {stack.includes('SiVite') && <SiVite />}
                                 {stack.includes('SiTailwindcss') && <SiTailwindcss />}
                                 {stack.includes('TbBrandRedux') && <TbBrandRedux />}
                                 {stack.includes('SiAuth0') && <SiAuth0 />}

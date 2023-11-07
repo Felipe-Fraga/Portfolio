@@ -17,7 +17,7 @@ export const Proyectos = () => {
             text: t('moru-text'),
             deploy: 'https://moru-app-front.vercel.app/',
             bg: '#280a50',
-            stack: ['FaJs', 'FaReact', 'FaNodeJs', 'SiTailwindcss', 'SiAuth0', 'SiSequelize', 'SiExpress', 'BiLogoPostgresql', 'TbBrandRedux']
+            stack: ['FaJs', 'FaReact', 'SiVite', 'FaNodeJs', 'SiTailwindcss', 'SiAuth0', 'SiSequelize', 'SiExpress', 'BiLogoPostgresql', 'TbBrandRedux']
         },
         {
             img: todo,
@@ -26,7 +26,7 @@ export const Proyectos = () => {
             deploy: 'https://to-do-list-nu-lake.vercel.app/',
             github: 'https://github.com/Felipe-Fraga/toDo-vite',
             bg: '#312E81',
-            stack: ['FaJs', 'FaReact', 'SiTailwindcss']
+            stack: ['FaJs', 'FaReact', 'SiTailwindcss', 'SiVite']
         },
         {
             img: earth,
@@ -35,7 +35,7 @@ export const Proyectos = () => {
             deploy: 'https://earth-echoes.vercel.app/',
             github: 'https://github.com/Felipe-Fraga/EarthEchoes',
             bg: '#001C30',
-            stack: ['FaJs', 'FaReact', 'SiTailwindcss']
+            stack: ['FaJs', 'FaReact', 'SiTailwindcss', 'SiVite']
         },
         {
             img: RyM,
@@ -44,7 +44,7 @@ export const Proyectos = () => {
             deploy: 'https://rick-and-morty-five-delta.vercel.app/',
             github: 'https://github.com/Felipe-Fraga/RickAndMorty',
             bg: '#2C272E',
-            stack: ['FaJs', 'FaReact', 'SiTailwindcss', 'TbBrandRedux']
+            stack: ['FaJs', 'FaReact', 'SiTailwindcss', 'TbBrandRedux', 'SiVite']
         }
     ];
 
