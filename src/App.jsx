@@ -7,7 +7,7 @@ import { AboutMe } from "./components/AboutMe";
 
 function App() {
   return (
-    <div className=" animate-fade-down animate-duration-[2500ms]">
+    <div className="">
       <Theme className='fixed'/>
       <div id="home">
         <Home id="home" />
